@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: rgb(16, 14, 14);
+            --custom-width: 730px
+        }
+        .conatiner{
+            border: 2px solid black;
+            background-color: aquamarine;
+            height: 1000px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            border: 2px solid black;
+            width: var(--custom-width);
+            height: 630px;
+            background-color: rgb(229, 95, 95);
+            padding: 50px;
+            
+            /* box-shadow: -20px -20px brown; */
+            /* box-shadow: 30px -30px 5px 5px rebeccapurple
+            ; */
+            /* box-shadow: inset 30px -20px 10px 20px yellowgreen; */
+            box-shadow: 15px -20px 5px 5px var(--primary-color) , 20px 25px 10px 10px green;
+        }
+        h1{
+            font-size: xx-large;
+            margin: 50px;
+        }
+        img{
+            margin: 50px;
+        }
+        #id1{
+            /* text-shadow: 4px 5px 3px yellow; */
+            text-shadow: 5px 5px 3px rebeccapurple,10px 10px 3px green,15px 15px 3px yellowgreen;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="box">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.5b_w-z-sRg4472u2gwCitQHaEK?pid=Api&P=0&h=180" alt="image">
+            <h1 id="id1">THIS IS SHADOW PRAC</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis voluptatem magnam aspernatur alias sit,
+                rerum nesciunt voluptate eius repellendus a cupiditate placeat rem consequuntur!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
